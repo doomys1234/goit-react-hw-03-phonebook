@@ -1,0 +1,32 @@
+.form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.title{
+    margin: 0px;
+}
+.input{
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 4px;
+    outline: none;
+    &:hover, :focus{
+        border-color: orange;
+    }
+}
+.button {
+    border: none;
+    background-color: rgb(255, 166, 0);
+    color: white;
+    padding: 6px 20px;
+    border-radius: 4px;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+}
